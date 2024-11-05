@@ -18,7 +18,7 @@ class LinkedList():
                 cur = cur.next
             cur.next = new_node
         
-    def print_list(self):
+    def print(self):
         cur_node = self.head
         string = ""
         while cur_node:
